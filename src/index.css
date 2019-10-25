@@ -1,3 +1,6 @@
+*{
+  margin: 0;
+}
 #fsfs{
     background-image: url()
 }
@@ -29,6 +32,7 @@ body, html {
     justify-content: center;
     margin-left: 10px;
     color: white;
+    align-items: center;
 }
 #img {
     width: 30px;
@@ -47,13 +51,8 @@ body, html {
     width: 60%;
 }
 
-#userInfo {
-    width: 40%;
-    align-items: center;
-}
-
 .link_short {
-    padding-left: 30px;
+    padding-left: 20px;
     text-decoration: none;
     font-size: 20px;
     color: white;
@@ -186,3 +185,195 @@ body, html {
     padding-right: 5px;
 }
 
+#contain {
+  display: inline-block;
+}
+
+#contain-btn {
+  display: inline-block;
+}
+
+.btn-items {
+  display: inline-block;
+  margin: 25px
+}
+
+.container-link {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+}
+
+.btn-linkItem {
+  width: 50%;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn-linkItem:hover {
+  background-color: #ddd;
+}
+
+.btn-linkItem:focus {
+  background-color: #666;
+  color: white;
+}
+
+#mySearch {
+  margin-left: 150px;
+  border: solid white 1px;
+  width: 300px;
+  border-radius: 20px;
+}
+
+.container-forumChat {
+  background-color: #ecf0f1;
+}
+
+.container-forum {
+  display: flex;
+  margin: 50px;
+  border: solid white 1px;
+  background-color: white;
+  width: 60%;
+}
+
+.img-items {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px
+}
+
+.container-user {
+  margin-left: 50px;
+} 
+
+.reply_container {
+  margin-left: 50px;
+}
+
+.container-input-reply {
+  margin-left: 50px;
+}
+
+.title2 {
+  border: solid 1px black;
+  border-radius: 10px;
+  outline: 0;
+}
+
+.content2 {
+  border: solid 1px black;
+  border-radius: 10px;
+  margin-left: 10px;
+  outline: 0;
+}
+
+.reply_btn {
+  border: solid 1px black;
+  border-radius: 10px;
+}
+
+
+
+@keyframes move-background {
+  from {
+		-webkit-transform: translate3d(0px, 0px, 0px);
+	}
+	to { 
+		-webkit-transform: translate3d(1000px, 0px, 0px);
+	}
+}
+@-webkit-keyframes move-background {
+  from {
+		-webkit-transform: translate3d(0px, 0px, 0px);
+	}
+	to { 
+		-webkit-transform: translate3d(1000px, 0px, 0px);
+	}
+}
+
+@-moz-keyframes move-background {    
+	from {
+		-webkit-transform: translate3d(0px, 0px, 0px);
+	}
+	to { 
+		-webkit-transform: translate3d(1000px, 0px, 0px);
+	}
+}
+
+    @-webkit-keyframes move-background {
+	from {
+		-webkit-transform: translate3d(0px, 0px, 0px);
+	}
+	to { 
+		-webkit-transform: translate3d(1000px, 0px, 0px);
+	}
+}
+
+.background-container{
+	position: fixed;
+	top: 0;
+	left:0;
+	bottom: 0;
+	right: 0;
+}
+
+.stars {
+ background: black url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png) repeat;
+ position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: block;
+  	z-index: 0;
+}
+
+.twinkling{
+	width:10000px;
+	height: 100%;
+	background: transparent url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/twinkling.png") repeat;
+	background-size: 1000px 1000px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+    
+    -moz-animation:move-background 70s linear infinite;
+  -ms-animation:move-background 70s linear infinite;
+  -o-animation:move-background 70s linear infinite;
+  -webkit-animation:move-background 70s linear infinite;
+  animation:move-background 70s linear infinite;
+	
+}
+
+.clouds{
+	width:10000px;
+	height: 100%;
+	background: transparent url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/clouds_repeat.png") repeat;
+	background-size: 1000px 1000px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 3;
+
+   -moz-animation:move-background 150s linear infinite;
+  -ms-animation:move-background 150s linear infinite;
+  -o-animation:move-background 150s linear infinite;
+  -webkit-animation:move-background 150s linear infinite;
+  animation:move-background 150s linear infinite;
+}
+img{
+  height: 70vh;
+  width:70vh;
+  position: absolute;
+  z-index: 3;
+  right: 20px;
+}

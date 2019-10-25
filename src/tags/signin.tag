@@ -35,7 +35,7 @@
         
         <div class=" container-signUp">
                     <button class="btn" style="width:80%; height: 50px; border-radius: 100px; color: white" id="summitSI">Login</button>
-                    <p style="margin: 0 29%">
+                    <p style="margin: 0 28%">
                         New member?
                         <a href="/signup">
                             <span>Sign up now!</span>

@@ -8,13 +8,13 @@
         <a href="/post" class="link_short">Create some game</a>
         <a href="/forum" class="link_short">Community</a>
     </div>
+    <div id = "searchbar">       
+        <input type="text" id = "mySearch" placeholder="Search..">
+    </div>   
     <div id="userInfo">
         <div id="username"></div>
         <img src="" alt="" id="img">
         <button id="log_out">Log out</button>   
     </div>
-    <div id = "searchbar">       
-        <input type="text" id = "mySearch" placeholder="Search..">
-    </div>   
 </div>
 </taskbar>

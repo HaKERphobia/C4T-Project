@@ -1,5 +1,9 @@
 <homepage>
     <div id="homepage">
-        <img style="width: 100%; height: 100%;" src="https://unity.com/sites/default/files/styles/16_9_l_scale_width/public/2019-04/Learn_2DBeginner_2.jpg?itok=Ts0Zb196" alt="">
-    </div>
-</homepage> 
+        <div class="background-container" style="margin-top: 50px;">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/moon2.png" alt="">
+            <div class="stars"></div>
+            <div class="twinkling"></div>
+            <div class="clouds"></div>
+        </div>
+</homepage>

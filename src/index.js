@@ -116,7 +116,6 @@ route("/home", () => {
 const homePage = riot.mount("div#root", "homepage");
 
 
-
 });
 
 const checkAuth = () => {
@@ -140,7 +139,6 @@ const signin = riot.mount("div#root", "signin");
 document.getElementById("summitSI").addEventListener('click', async (e) => {
     e.preventDefault();
     let email = document.getElementById("emailSI").value;
-
     let password = document.getElementById("passwordSI").value;
     try {
         await mxFirebase.signIn(email,password);
@@ -151,7 +149,6 @@ document.getElementById("summitSI").addEventListener('click', async (e) => {
              localStorage.setItem("username",userChecker[i].userName);
             }
       }
-        document.getElementById("Err_message").innerHTML = "Login sucessful !!!";
         window.location.href = '/home';
     } catch(err) {
         alert(err.message);
